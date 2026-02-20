@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ID Card Digital - Sarifuddin</title>
+
+    <link rel="stylesheet" href="ade.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="card">
+      <!-- AVATAR -->
+      <div class="avatar" onclick="openFoto()">
+        <img src="foto.jpg" alt="Foto Sarifuddin" />
+      </div>
+
+      <h1>SARIFUDDIN</h1>
+      <div class="nim">NIM : D0225010</div>
+
+      <div class="info">
+        <p>🎂 <b>Tanggal Lahir:</b> 03 / 03 / 2006</p>
+        <p>🗺️ <b>Alamat:</b> Galung Lego</p>
+        <p>🏫 <b>Program Studi:</b> Teknik Informatika</p>
+      </div>
+
+      <div class="social">
+        <a href="https://instagram.com/aa_adeee" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram: @aa_adeee
+        </a>
+
+        <a href="https://wa.me/6282346253471" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp: Sarifuddin
+        </a>
+
+        <a href="https://t.me/082346253471" target="_blank">
+          <i class="fab fa-telegram"></i> Telegram: ADE
+        </a>
+      </div>
+
+      <div class="footer">ID Card Digital</div>
+    </div>
+
+    <!-- POPUP FOTO -->
+    <div id="popupFoto" class="popup" onclick="closeFoto()">
+      <img src="foto.jpg" alt="Foto Besar" />
+    </div>
+
+    <!-- SCRIPT -->
+    <script>
+      function openFoto() {
+        document.getElementById("popupFoto").style.display = "flex";
+      }
+      function closeFoto() {
+        document.getElementById("popupFoto").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
