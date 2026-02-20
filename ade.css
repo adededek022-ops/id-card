@@ -17,8 +17,8 @@ body {
 .card {
   background: #000000;
   border-radius: 6px;
-  padding: 80px;
-  width: 430px;
+  padding: 60px;
+  width: 400px;
   box-shadow: 0 2px 60px rgba(255, 255, 255, 0.8);
   text-align: center;
 }
@@ -112,3 +112,4 @@ h1 {
   box-shadow: 0 0 40px rgba(255, 0, 225, 0.9);
 }
 /* =========================== */
+
